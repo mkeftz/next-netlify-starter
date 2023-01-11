@@ -1,6 +1,7 @@
 {
   "colors": {
     "white": "#FFF",
-    "black": "#000"
+    "black": "#000",
+    "red": "#F00"
   }
 }
