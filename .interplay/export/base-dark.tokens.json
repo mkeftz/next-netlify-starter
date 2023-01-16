@@ -1,0 +1,233 @@
+{
+  "theme-reference": {
+    "color": {
+      "$type": "color",
+      "brand": {
+        "ref-color-brand-01": {
+          "$description": "The primary brand color, used on graphics, illustration and decoration",
+          "$type": "color",
+          "$value": "#007AF1"
+        },
+        "ref-color-brand-02": {
+          "$description": "The secondary brand color, used on graphics, illustration and decoration",
+          "$type": "color",
+          "$value": "#E69E02"
+        }
+      },
+      "fill": {
+        "$type": "color",
+        "ref-color-fill-01": {
+          "$description": "Default page background",
+          "$type": "color",
+          "$value": "#121416"
+        },
+        "ref-color-fill-02": {
+          "$description": "Detail page background",
+          "$type": "color",
+          "$value": "#222629"
+        },
+        "ref-color-fill-03": {
+          "$description": "Surfaces background color against  $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#222629"
+        },
+        "ref-color-fill-04": {
+          "$description": "Input fields; Control Off; Thumb ",
+          "$type": "color",
+          "$value": "#222629"
+        }
+      },
+      "primary": {
+        "$type": "color",
+        "ref-color-primary-01": {
+          "$description": "The primary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#007AF1"
+        },
+        "ref-color-primary-02": {
+          "$description": "The color applied against the  $ref-color-primary-01",
+          "$type": "color",
+          "$value": "#121416"
+        },
+        "ref-color-primary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-primary-01",
+          "$type": "color",
+          "$value": "#2392FF"
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "ref-color-secondary-02": {
+          "$description": "The color applied against the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#007DFA"
+        },
+        "ref-color-secondary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#00376E"
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "ref-color-tertiary-01": {
+          "$description": "The tertiary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#007DFA"
+        },
+        "ref-color-tertiary-02": {
+          "$description": "A lighter/darker variant of the  $ref-color-teriary-01",
+          "$type": "color",
+          "$value": "#2392FF"
+        }
+      },
+      "feedback": {
+        "$type": "color",
+        "ref-color-feedback-01": {
+          "$description": "Feedback positive color",
+          "$type": "color",
+          "$value": "#3DDC78"
+        },
+        "ref-color-feedback-02": {
+          "$description": "Feedback negative color",
+          "$type": "color",
+          "$value": "#EA4444"
+        },
+        "ref-color-feedback-03": {
+          "$description": "Feedback warning color",
+          "$type": "color",
+          "$value": "#FA9D5A"
+        },
+        "ref-color-feedback-04": {
+          "$description": "Feedback neutral color",
+          "$type": "color",
+          "$value": "#7BA7D1"
+        }
+      },
+      "neutral": {
+        "$type": "color",
+        "ref-color-neutral-0": {
+          "$description": "Greyscale value #0, defined by the theme.",
+          "$type": "color",
+          "$value": "#121416"
+        },
+        "ref-color-neutral-100": {
+          "$description": "Greyscale value #100, defined by the theme.",
+          "$type": "color",
+          "$value": "#222629"
+        },
+        "ref-color-neutral-200": {
+          "$description": "Greyscale value #200, defined by the theme.",
+          "$type": "color",
+          "$value": "#2A2F34"
+        },
+        "ref-color-neutral-300": {
+          "$description": "Greyscale value #300, defined by the theme.",
+          "$type": "color",
+          "$value": "#3D454D"
+        },
+        "ref-color-neutral-400": {
+          "$description": "Greyscale value #400, defined by the theme.",
+          "$type": "color",
+          "$value": "#576471"
+        },
+        "ref-color-neutral-500": {
+          "$description": "Greyscale value #500, defined by the theme.",
+          "$type": "color",
+          "$value": "#758798"
+        },
+        "ref-color-neutral-600": {
+          "$description": "Greyscale value #600, defined by the theme.",
+          "$type": "color",
+          "$value": "#92AABF"
+        },
+        "ref-color-neutral-700": {
+          "$description": "Greyscale value #700, defined by the theme.",
+          "$type": "color",
+          "$value": "#B8C7D6"
+        },
+        "ref-color-neutral-800": {
+          "$description": "Greyscale value #800, defined by the theme.",
+          "$type": "color",
+          "$value": "#D8E1E9"
+        },
+        "ref-color-neutral-900": {
+          "$description": "Greyscale value #900, defined by the theme.",
+          "$type": "color",
+          "$value": "#F0F3F7"
+        },
+        "ref-color-neutral-1000": {
+          "$description": "Greyscale value #1000, defined by the theme.",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "navigation": {
+        "$type": "color",
+        "ref-color-nav-01": {
+          "$description": "The default color background for the bottom navigation",
+          "$type": "color",
+          "$value": "#121416"
+        },
+        "ref-color-nav-02": {
+          "$description": "The default color against  $ref-color-nav-01",
+          "$type": "color",
+          "$value": "#3D454D"
+        },
+        "ref-color-nav-03": {
+          "$description": "The selection/highlight color against  $ref-color-nav-01",
+          "$type": "color",
+          "$value": "#007AF1"
+        }
+      },
+      "shadow": {
+        "$type": "color",
+        "ref-color-shadow": {
+          "$description": "Color used for shadows applied on elevated elements",
+          "$type": "color",
+          "$value": "#121416"
+        }
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "comp-color-background-button-primary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-01}"
+      },
+      "comp-color-background-button-primary-hover": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-03}"
+      },
+      "comp-color-text-button-primary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "textColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-02}"
+      },
+      "comp-color-background-button-secondary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.secondary.ref-color-secondary-01}"
+      }
+    }
+  }
+}
