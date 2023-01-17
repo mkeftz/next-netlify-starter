@@ -1,0 +1,2817 @@
+{
+  "theme-reference": {
+    "color": {
+      "$type": "color",
+      "brand": {
+        "ref-color-brand-01": {
+          "$description": "The primary brand color, used on graphics, illustration and decoration",
+          "$type": "color",
+          "$value": "#0073E5"
+        },
+        "ref-color-brand-02": {
+          "$description": "The secondary brand color, used on graphics, illustration and decoration",
+          "$type": "color",
+          "$value": "#FFBF17"
+        }
+      },
+      "fill": {
+        "$type": "color",
+        "ref-color-fill-01": {
+          "$description": "Default page background",
+          "$type": "color",
+          "$value": "#EEF2F6"
+        },
+        "ref-color-fill-02": {
+          "$description": "Detail page background",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-fill-03": {
+          "$description": "Surfaces background color against  $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-fill-04": {
+          "$description": "Input fields; Control Off; Thumb ",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "primary": {
+        "$type": "color",
+        "ref-color-primary-01": {
+          "$description": "The primary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#0073E5"
+        },
+        "ref-color-primary-02": {
+          "$description": "The color applied against the  $ref-color-primary-01",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-primary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-primary-01",
+          "$type": "color",
+          "$value": "#148AFF"
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "ref-color-secondary-01": {
+          "$description": "The secondary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#ffffff00"
+        },
+        "ref-color-secondary-02": {
+          "$description": "The color applied against the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#006BD6"
+        },
+        "ref-color-secondary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#DAEDFF"
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "ref-color-tertiary-01": {
+          "$description": "The tertiary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#006BD6"
+        },
+        "ref-color-tertiary-02": {
+          "$description": "A lighter/darker variant of the  $ref-color-teriary-01",
+          "$type": "color",
+          "$value": "#148AFF"
+        }
+      },
+      "feedback": {
+        "$type": "color",
+        "ref-color-feedback-01": {
+          "$description": "Feedback positive color",
+          "$type": "color",
+          "$value": "#28A639"
+        },
+        "ref-color-feedback-02": {
+          "$description": "Feedback negative color",
+          "$type": "color",
+          "$value": "#F93023"
+        },
+        "ref-color-feedback-03": {
+          "$description": "Feedback warning color",
+          "$type": "color",
+          "$value": "#F98702"
+        },
+        "ref-color-feedback-04": {
+          "$description": "Feedback neutral color",
+          "$type": "color",
+          "$value": "#698AA9"
+        }
+      },
+      "neutral": {
+        "$type": "color",
+        "ref-color-neutral-0": {
+          "$description": "Greyscale value #0, defined by the theme.",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-neutral-100": {
+          "$description": "Greyscale value #100, defined by the theme.",
+          "$type": "color",
+          "$value": "#EEF2F6"
+        },
+        "ref-color-neutral-200": {
+          "$description": "Greyscale value #200, defined by the theme.",
+          "$type": "color",
+          "$value": "#E8EDF2"
+        },
+        "ref-color-neutral-300": {
+          "$description": "Greyscale value #300, defined by the theme.",
+          "$type": "color",
+          "$value": "#D3DDE6"
+        },
+        "ref-color-neutral-400": {
+          "$description": "Greyscale value #400, defined by the theme.",
+          "$type": "color",
+          "$value": "#A5B9CC"
+        },
+        "ref-color-neutral-500": {
+          "$description": "Greyscale value #500, defined by the theme.",
+          "$type": "color",
+          "$value": "#8297AA"
+        },
+        "ref-color-neutral-600": {
+          "$description": "Greyscale value #600, defined by the theme.",
+          "$type": "color",
+          "$value": "#647381"
+        },
+        "ref-color-neutral-700": {
+          "$description": "Greyscale value #700, defined by the theme.",
+          "$type": "color",
+          "$value": "#424B53"
+        },
+        "ref-color-neutral-800": {
+          "$description": "Greyscale value #800, defined by the theme.",
+          "$type": "color",
+          "$value": "#23272B"
+        },
+        "ref-color-neutral-900": {
+          "$description": "Greyscale value #900, defined by the theme.",
+          "$type": "color",
+          "$value": "#191B1E"
+        },
+        "ref-color-neutral-1000": {
+          "$description": "Greyscale value #1000, defined by the theme.",
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "navigation": {
+        "$type": "color",
+        "ref-color-nav-01": {
+          "$description": "The default color background for the bottom navigation",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-nav-02": {
+          "$description": "The default color against  $ref-color-nav-01",
+          "$type": "color",
+          "$value": "#D3DDE6"
+        },
+        "ref-color-nav-03": {
+          "$description": "The selection/highlight color against  $ref-color-nav-01",
+          "$type": "color",
+          "$value": "#0073E5"
+        }
+      },
+      "shadow": {
+        "$type": "color",
+        "ref-color-shadow": {
+          "$description": "Color used for shadows applied on elevated elements",
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "special": {
+        "$type": "color",
+        "ref-color-special-01": {
+          "$description": "Special page background",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-02": {
+          "$description": "Default color against $ref-color-special-01",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-03": {
+          "$description": "Supplementary color against$ref-color-special-01",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-04": {
+          "$description": "Primary color against $ref-color-special-01",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-05": {
+          "$description": "A lighter/darker variant of the  $ref-color-special-04",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-06": {
+          "$description": "Color against the  $ref-color-special-04",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-07": {
+          "$description": "Secondary color against $ref-color-special-01",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-08": {
+          "$description": "A lighter/darker variant of the  $ref-color-special-07",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-09": {
+          "$description": "Color against the  $ref-color-special-07",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-10": {
+          "$description": "Tertiary color against $ref-color-special-01",
+          "$value": "#FFFFFF"
+        },
+        "ref-color-special-11": {
+          "$description": "A lighter/darker variant of the  $ref-color-special-10",
+          "$value": "#FFFFFF"
+        }
+      }
+    },
+    "font-family": {
+      "$type": "fontFamily",
+      "ref-font-family-01": {
+        "$description": "Primary font family used as a default for the user interface",
+        "$type": "fontFamily",
+        "$value": "\"72\", Arial"
+      },
+      "ref-font-family-02": {
+        "$description": "Secondary font family, used on page headlines. Optionally, it can be used for branded content.",
+        "$type": "fontFamily",
+        "$value": "\"72\", Arial"
+      }
+    },
+    "font-weight": {
+      "ref-font-weight-01": {
+        "$description": "Default font weight",
+        "$type": "number",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontWeight"
+          ]
+        },
+        "$value": "normal"
+      },
+      "ref-font-weight-02": {
+        "$description": "Variant font weight",
+        "$type": "number",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontWeight"
+          ]
+        },
+        "$value": "700"
+      },
+      "ref-font-weight-03": {
+        "$description": "Variant font weight",
+        "$type": "number",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontWeight"
+          ]
+        },
+        "$value": "300"
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "borderRadius"
+        ]
+      },
+      "ref-radius-button": {
+        "$description": "Theme related, applied exclusively on button component.",
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius"
+          ]
+        },
+        "$value": "0.25rem"
+      }
+    }
+  },
+  "system": {
+    "color": {
+      "$type": "color",
+      "background": {
+        "sys-color-background-page-default": {
+          "$description": "Ground level; Level 1; Level 2",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-01}"
+        },
+        "sys-color-background-page-detail": {
+          "$description": "Detail level",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-02}"
+        },
+        "sys-color-background-page-special": {
+          "$description": "Success screen",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.special.ref-color-special-01}"
+        },
+        "sys-color-background-surfaces": {
+          "$description": "Cards; Modals; Menus; Dialogues; Tables",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-03}"
+        },
+        "sys-color-background-surfaces-variant": {
+          "$description": "Cards; Modals; Menus; Dialogues; Tables",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.15)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#64738126"
+        },
+        "sys-color-background-surfaces-hover": {
+          "$description": "Cards; Modals; Menus; Dialogues; Tables",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#64738114"
+        },
+        "sys-color-background-surfaces-selected": {
+          "$description": "Cards; Modals; Menus; Dialogues; Tables",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.1)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#6473811a"
+        },
+        "sys-color-background-disabled": {
+          "$description": "Primary button; Secondary button",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.20)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#64738133"
+        },
+        "sys-color-background-positive": {
+          "$description": "Number container;  Stock variation container",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-01}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#28a63914"
+        },
+        "sys-color-background-negative": {
+          "$description": "Number container;  Stock variation container",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-02}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#f9302314"
+        },
+        "sys-color-background-warning": {
+          "$description": "Number container;  Stock variation container",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-03}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#f9870214"
+        },
+        "sys-color-background-info-neutral": {
+          "$description": "Number container;  Stock variation container",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-04}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#698aa914"
+        },
+        "sys-color-background-infoNeutral": {
+          "$description": "Number container;  Stock variation container",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-04}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#698aa914"
+        },
+        "sys-color-background-overlay": {
+          "$description": "Overlay",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({non-themable.color.ref-color-black}, 0.6)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#00000099"
+        },
+        "sys-color-background-controls-off": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-04}"
+        },
+        "sys-color-background-controls-off-disabled": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.04)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#6473810a"
+        },
+        "sys-color-background-controls-off-hover": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.08)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#64738114"
+        },
+        "sys-color-background-controls-off-pressed": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.1)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "#6473811a"
+        },
+        "sys-color-background-controls-on": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-01}"
+        },
+        "sys-color-background-controls-on-hover": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-02}"
+        },
+        "sys-color-background-controls-on-pressed": {
+          "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-01}"
+        },
+        "sys-color-background-controls-thumb": {
+          "$description": "Thumb",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-04}"
+        },
+        "sys-color-background-controls-thumb-disabled": {
+          "$description": "Thumb",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.lighten({theme-reference.color.fill.ref-color-fill-04}, 20)",
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "ffffffff"
+        },
+        "sys-color-background-forms": {
+          "$description": "Input field; Dropdown; Menu",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "backgroundColor"
+            ]
+          },
+          "$value": "{theme-reference.color.fill.ref-color-fill-04}"
+        },
+        "sys-color-background-forms-disabled": {
+          "$description": "Input field",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.04)"
+          },
+          "$value": "#6473810a"
+        }
+      },
+      "text": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "textColor"
+          ]
+        },
+        "sys-color-text-default": {
+          "$description": "Headline;  Subtitle;  Body;  Paragraph:  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.neutral.ref-color-neutral-1000}"
+        },
+        "sys-color-text-supplementary": {
+          "$description": "Subtitle;  Body;  Paragraph:  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-700}, 0.6)",
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "#424b5399"
+        },
+        "sys-color-text-inactive": {
+          "$description": "Tab label; Input text",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.6)",
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "#64738199"
+        },
+        "sys-color-text-disabled": {
+          "$description": "Body;  Paragraph;  Caption;  Input label;  Primary button; Secondary button; Link button",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.4)",
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "#64738166"
+        },
+        "sys-color-text-active": {
+          "$description": "Tab label; Links",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-01}"
+        },
+        "sys-color-text-active-hover": {
+          "$description": "Tab label; Links",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-02}"
+        },
+        "sys-color-text-positive": {
+          "$description": "Body;  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-01}"
+        },
+        "sys-color-text-negative": {
+          "$description": "Body;  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-02}"
+        },
+        "sys-color-text-warning": {
+          "$description": "Body;  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-03}"
+        },
+        "sys-color-text-info-neutral": {
+          "$description": "Body;  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-04}"
+        },
+        "sys-color-text-infoNeutral": {
+          "$description": "Body;  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-04}"
+        },
+        "sys-color-text-default-special": {
+          "$description": "Headline;  Subtitle;  Body;  Paragraph:  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.special.ref-color-special-02}"
+        },
+        "sys-color-text-supplementary-special": {
+          "$description": "Subtitle;  Body;  Paragraph:  Caption",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.usedFor": [
+              "textColor"
+            ]
+          },
+          "$value": "{theme-reference.color.special.ref-color-special-03}"
+        }
+      },
+      "icon": {
+        "$type": "color",
+        "sys-color-icon-default": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.neutral.ref-color-neutral-900}"
+        },
+        "sys-color-icon-default-hover": {
+          "$description": "General icons",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.lighten({theme-reference.color.neutral.ref-color-neutral-900}, 20)"
+          },
+          "$value": "474d56ff"
+        },
+        "sys-color-icon-supplementary": {
+          "$description": "General icons",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-700}, 0.6)"
+          },
+          "$value": "#424b5399"
+        },
+        "sys-color-icon-inactive": {
+          "$description": "Icons on Tabs",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.6)"
+          },
+          "$value": "#64738199"
+        },
+        "sys-color-icon-disabled": {
+          "$description": "General icons; Primary button; Secondary button; Link button",
+          "$type": "color",
+          "$extensions": {
+            "com.interplayapp.value": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.4)"
+          },
+          "$value": "#64738166"
+        },
+        "sys-color-icon-active": {
+          "$description": "Icons on Tabs",
+          "$type": "color",
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-01}"
+        },
+        "sys-color-icon-active-hover": {
+          "$description": "Icons on Tabs",
+          "$type": "color",
+          "$value": "{theme-reference.color.tertiary.ref-color-tertiary-02}"
+        },
+        "sys-color-icon-positive": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-01}"
+        },
+        "sys-color-icon-negative": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-02}"
+        },
+        "sys-color-icon-warning": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-03}"
+        },
+        "sys-color-icon-info-neutral": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-04}"
+        },
+        "sys-color-icon-infoNeutral": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.feedback.ref-color-feedback-04}"
+        },
+        "sys-color-icon-default-special": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.special.ref-color-special-02}"
+        },
+        "sys-color-icon-supplementary-special": {
+          "$description": "General icons",
+          "$type": "color",
+          "$value": "{theme-reference.color.special.ref-color-special-03}"
+        }
+      }
+    },
+    "typography": {
+      "$type": "typography",
+      "sys-font-display-default": {
+        "$description": "Charts; Highlights",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-07}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-05}"
+        }
+      },
+      "sys-font-display-bolder": {
+        "$description": "Charts; Highlights",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-07}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-05}"
+        }
+      },
+      "sys-font-display-lighter": {
+        "$description": "Charts; Highlights",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-07}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-05}"
+        }
+      },
+      "sys-font-headline-large-default": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-04}"
+        }
+      },
+      "sys-font-headlineLarge-default": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-04}"
+        }
+      },
+      "sys-font-headline-large-bolder": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-04}"
+        }
+      },
+      "sys-font-headlineLarge-bolder": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-04}"
+        }
+      },
+      "sys-font-headline-large-lighter": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-04}"
+        }
+      },
+      "sys-font-headlineLarge-lighter": {
+        "$description": "Page title",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-06}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-04}"
+        }
+      },
+      "sys-font--headline-medium-default": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-03}"
+        }
+      },
+      "sys-font-headlineMedium-default": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-03}"
+        }
+      },
+      "sys-font--headline-medium-bolder": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-03}"
+        }
+      },
+      "sys-font-headlineMedium-bolder": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-03}"
+        }
+      },
+      "sys-font--headline-medium-lighter": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-03}"
+        }
+      },
+      "sys-font-headlineMedium-lighter": {
+        "$description": "Text paragraphs; Section title; Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-05}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-03}"
+        }
+      },
+      "sys-font-headline-small-default": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-headlineSmall-default": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-headline-small-bolder": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-headlineSmall-bolder": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-headline-small-lighter": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-headlineSmall-lighter": {
+        "$description": "Cards",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-02}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-03}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-body-large-default": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-bodyLarge-default": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-body-large-italic": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-bodyLarge-italic": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-body-large-bolder": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-bodyLarge-bolder": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-body-large-bolder-italic": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-02}"
+        }
+      },
+      "sys-font-bodyLarge-bolderItalic": {
+        "$description": "Paragraphs; Input field; Text label; Tables; Tab",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-04}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-02}"
+        }
+      },
+      "sys-font-body-medium-default": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-01}"
+        }
+      },
+      "sys-font-bodyMedium-default": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "sys-font-body-medium-italic": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-01}"
+        }
+      },
+      "sys-font-bodyMedium-italic": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "sys-font-body-medium-bolder": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-01}"
+        }
+      },
+      "sys-font-bodyMedium-bolder": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "sys-font-body-medium-bolder-italic": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-line-height-01}"
+        }
+      },
+      "sys-font-bodyMedium-bolderItalic": {
+        "$description": "Paragraphs; Text labels; Tables",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "sys-font-caption-default": {
+        "$description": "Paragraphs; Text label; Tables; Data visualization",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-02}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "sys-font-caption-italic": {
+        "$description": "Paragraphs; Text label; Tables; Data visualization",
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-02}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-01}",
+          "letterSpacing": "",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      }
+    },
+    "spacing": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "space",
+          "size"
+        ]
+      },
+      "sys-dimension-padding-xx-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-03}"
+      },
+      "sys-dimension-padding-xxSmall": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-03}"
+      },
+      "sys-dimension-padding-x-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-04}"
+      },
+      "sys-dimension-padding-xSmall": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-04}"
+      },
+      "sys-dimension-padding-Small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-06}"
+      },
+      "sys-dimension-padding-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-06}"
+      },
+      "sys-dimension-padding-medium": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-08}"
+      },
+      "sys-dimension-padding-large": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-09}"
+      },
+      "sys-dimension-padding-x-large": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-10}"
+      },
+      "sys-dimension-padding-xLarge": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-10}"
+      },
+      "sys-dimension-padding-xx-large": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-11}"
+      },
+      "sys-dimension-padding-xxLarge": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space",
+            "size"
+          ]
+        },
+        "$value": "{non-themable.spacing.ref-relative-spacing-11}"
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "borderRadius"
+        ]
+      },
+      "sys-radius-small": {
+        "$description": "Checkbox; Snackbar; Tooltips",
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-relative-sizing-03}"
+      },
+      "sys-radius-medium": {
+        "$description": "Cards; Text input; Modal; Menus; Dialogue",
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-relative-sizing-04}"
+      },
+      "sys-radius-large": {
+        "$description": "Backdrops",
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-relative-sizing-10}"
+      }
+    },
+    "border width": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "borderWidth"
+        ]
+      },
+      "sys-borderWidth-extraSmall": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-01}"
+      },
+      "sys-borderWidth-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-02}"
+      },
+      "sys-borderWidth-medium": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-04}"
+      }
+    },
+    "border-width": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "borderWidth"
+        ]
+      },
+      "sys-border-width-extra-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-01}"
+      },
+      "sys-border-width-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-02}"
+      },
+      "sys-border-width-medium": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-fixed-sizing-04}"
+      }
+    },
+    "border": {
+      "$type": "border",
+      "sys-border-default": {
+        "$description": "Disabled itens; General borders; Cards",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.15)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-default-hover": {
+        "$description": "General borders; Cards",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.3)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-controls-default": {
+        "$description": "Controls; Input fields",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.neutral.ref-color-neutral-600}, 0.4)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-active": {
+        "$description": "Input field; Toggle;  Slider;  Radio button; Checkbox;  Tabs",
+        "$value": {
+          "color": "{theme-reference.color.tertiary.ref-color-tertiary-01}",
+          "width": "{system.border width.sys-borderWidth-small}"
+        }
+      },
+      "sys-border-active-hover": {
+        "$description": "Input field; Toggle;  Slider;  Radio button; Checkbox;  Tabs",
+        "$value": {
+          "color": "{theme-reference.color.tertiary.ref-color-tertiary-02}",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-feedback-positive": {
+        "$description": "Input fields",
+        "$value": {
+          "color": "{theme-reference.color.feedback.ref-color-feedback-01}",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-feedback-positive-hover": {
+        "$description": "Input fields",
+        "$value": {
+          "color": "color.lighten({theme-reference.color.feedback.ref-color-feedback-01}, 10)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-feedback-negative": {
+        "$description": "Input fields",
+        "$value": {
+          "color": "{theme-reference.color.feedback.ref-color-feedback-02}",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-feedback-negative-hover": {
+        "$description": "Input fields",
+        "$value": {
+          "color": "color.lighten({theme-reference.color.feedback.ref-color-feedback-02}, 10)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "sys-border-feedback-warning": {
+        "$value": {
+          "color": "{theme-reference.color.feedback.ref-color-feedback-03}",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      }
+    },
+    "size": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "size"
+        ]
+      },
+      "icon": {
+        "sys-dimension-size-icon-xLarge": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-10}"
+        },
+        "sys-dimension-size-icon-large": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-09}"
+        },
+        "sys-dimension-size-icon-medium": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-08}"
+        },
+        "sys-dimension-size-icon-small": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-06}"
+        },
+        "sys-dimension-size-icon-x-large": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-10}"
+        },
+        "sys-dimension-size-icon-xx-large": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-11}"
+        },
+        "sys-dimension-size-icon-xxLarge": {
+          "$type": "dimension",
+          "$value": "{non-themable.sizing.ref-relative-sizing-11}"
+        }
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "comp-color-background-button-primary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-01}"
+      },
+      "comp-color-background-button-primary-hover": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-03}"
+      },
+      "comp-color-background-button-primary-pressed": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.value": "color.darken({theme-reference.color.primary.ref-color-primary-01},10)",
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "0059b2ff"
+      },
+      "comp-color-text-button-primary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "textColor"
+          ]
+        },
+        "$value": "{theme-reference.color.primary.ref-color-primary-02}"
+      },
+      "comp-color-background-button-secondary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.secondary.ref-color-secondary-01}"
+      },
+      "comp-color-background-button-secondary-hover": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.secondary.ref-color-secondary-03}"
+      },
+      "comp-color-background-button-secondary-pressed": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.value": "color.darken({theme-reference.color.secondary.ref-color-secondary-03},10)",
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "a7d4ffff"
+      },
+      "comp-border-button-secondary": {
+        "$type": "border",
+        "$value": {
+          "color": "{theme-reference.color.secondary.ref-color-secondary-02}",
+          "width": "{non-themable.sizing.ref-fixed-sizing-02}"
+        }
+      },
+      "comp-color-text-button-secondary": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "textColor"
+          ]
+        },
+        "$value": "{theme-reference.color.secondary.ref-color-secondary-02}"
+      },
+      "comp-font-button-default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{theme-reference.font-family.ref-font-family-01}",
+          "fontSize": "{non-themable.font-size.ref-font-size-03}",
+          "fontWeight": "{theme-reference.font-weight.ref-font-weight-02}",
+          "lineHeight": "{non-themable.line-height.ref-font-lineHeight-01}"
+        }
+      },
+      "comp-color-icon-button-primary": {
+        "$type": "color",
+        "$value": "{theme-reference.color.primary.ref-color-primary-02}"
+      },
+      "comp-color-icon-button-secondary": {
+        "$type": "color",
+        "$value": "{theme-reference.color.secondary.ref-color-secondary-02}"
+      },
+      "comp-dimension-height-button-default": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "size"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-relative-sizing-13}"
+      },
+      "comp-dimension-height-button-small": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "size"
+          ]
+        },
+        "$value": "{non-themable.sizing.ref-relative-sizing-11}"
+      }
+    },
+    "toggle": {
+      "comp-color-background-toggle-off": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "{theme-reference.color.neutral.ref-color-neutral-200}"
+      },
+      "comp-color-background-toggle-off-hover": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.value": "color.lighten({theme-reference.color.neutral.ref-color-neutral-200}, 10)",
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "ffffffff"
+      },
+      "comp-color-background-toggle-off-pressed": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.value": "color.darken({theme-reference.color.neutral.ref-color-neutral-200}, 10)",
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "c7d3e0ff"
+      }
+    },
+    "pill": {
+      "comp-border-pill-positive": {
+        "$type": "border",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-01}, 0.15)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "comp-border-pill-negative": {
+        "$type": "border",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-02}, 0.15)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "comp-border-pill-warning": {
+        "$type": "border",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-03}, 0.15)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "comp-border-pill-info-neutral": {
+        "$type": "border",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-04}, 0.15)",
+          "style": "{non-themable.border-style.ref-border-style-01}",
+          "width": "{system.border-width.sys-border-width-extra-small}"
+        }
+      },
+      "comp-border-pill-infoNeutral": {
+        "$type": "border",
+        "$value": {
+          "color": "color.setAlpha({theme-reference.color.feedback.ref-color-feedback-04}, 0.15)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      }
+    },
+    "snackbar": {
+      "comp-color-background-snackbar": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.value": "color.lighten({non-themable.color.ref-color-black}, 20)",
+          "com.interplayapp.usedFor": [
+            "backgroundColor"
+          ]
+        },
+        "$value": "333333ff"
+      },
+      "comp-border-snackbar": {
+        "$type": "border",
+        "$value": {
+          "color": "color.lighten({non-themable.color.ref-color-black}, 20)",
+          "width": "{system.border width.sys-borderWidth-extraSmall}"
+        }
+      },
+      "comp-color-text-snackbar": {
+        "$type": "color",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "textColor"
+          ]
+        },
+        "$value": "{non-themable.color.ref-color-white}"
+      }
+    }
+  },
+  "deprecated": {
+    "(d)sys-color-icon-active-pressed": {
+      "$description": "Icons on Tabs",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.value": "color.darken({theme-reference.color.tertiary.ref-color-tertiary-01}, 20)"
+      },
+      "$value": "003870ff"
+    },
+    "(d)ref-relative-spacing-null": {
+      "$description": "Stacking spacing token, always zero, non-themable",
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "space"
+        ]
+      },
+      "$value": "0rem"
+    },
+    "(d)ref-font-letter-spacing-01": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "letterSpacing"
+        ]
+      },
+      "$value": "0px"
+    },
+    "(d)sys-color-background-disabled-special": {
+      "$description": "Primary button; Secondary button",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "backgroundColor"
+        ]
+      },
+      "$value": ""
+    },
+    "(d)sys-color-text-active-special": {
+      "$description": "Tab label;  Input label",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "textColor"
+        ]
+      },
+      "$value": ""
+    },
+    "(d)sys-color-text-active-pressed": {
+      "$description": "Tab label;  Input label",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "textColor"
+        ]
+      },
+      "$value": ""
+    },
+    "(d)sys-color-text-disabled-special": {
+      "$description": "Body;  Paragraph;  Caption;  Input label;  Primary button; Secondary button; Link button",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "textColor"
+        ]
+      },
+      "$value": ""
+    },
+    "(d)sys-color-icon-inactive-special": {
+      "$description": "Icons on Tabs",
+      "$type": "color",
+      "$value": ""
+    },
+    "(d)sys-color-icon-negative-special": {
+      "$description": "General icons",
+      "$type": "color",
+      "$value": ""
+    },
+    "(d)sys-color-icon-disabled-special": {
+      "$description": "General icons; Primary button; Secondary button; Link button",
+      "$type": "color",
+      "$value": ""
+    },
+    "(d)sys-color-icon-active-special": {
+      "$description": "Icons on Tabs",
+      "$type": "color",
+      "$value": ""
+    },
+    "(d)sys-color-text-negative-special": {
+      "$description": "Body;  Caption",
+      "$type": "color",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "textColor"
+        ]
+      },
+      "$value": ""
+    }
+  },
+  "non-themable": {
+    "color": {
+      "$type": "color",
+      "ref-color-transparent": {
+        "$description": "Transparent color, not themable. Update..",
+        "$type": "color",
+        "$value": "transparent"
+      },
+      "ref-color-black": {
+        "$description": "Black color, not themable",
+        "$value": "#000000"
+      },
+      "ref-color-white": {
+        "$description": "White color, not themable",
+        "$value": "#FFFFFF"
+      },
+      "ref-color-red": {
+        "$description": "Red color, not themable",
+        "$value": "#FF0000"
+      }
+    },
+    "font-size": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "fontSize"
+        ]
+      },
+      "ref-font-size-01": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "0.625rem"
+      },
+      "ref-font-size-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "0.75rem"
+      },
+      "ref-font-size-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "0.875rem"
+      },
+      "ref-font-size-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "1rem"
+      },
+      "ref-font-size-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "1.25rem"
+      },
+      "ref-font-size-06": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "1.5rem"
+      },
+      "ref-font-size-07": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "2rem"
+      },
+      "ref-font-size-08": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "3rem"
+      },
+      "ref-font-size-09": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "fontSize"
+          ]
+        },
+        "$value": "4rem"
+      }
+    },
+    "line-height": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "lineHeight"
+        ]
+      },
+      "ref-font-line-height-01": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1rem"
+      },
+      "ref-font-lineHeight-01": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1rem"
+      },
+      "ref-font-line-height-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1.25rem"
+      },
+      "ref-font-lineHeight-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1.25rem"
+      },
+      "ref-font-line-height-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1.5rem"
+      },
+      "ref-font-lineHeight-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "1.5rem"
+      },
+      "ref-font-line-height-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "2rem"
+      },
+      "ref-font-lineHeight-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "2rem"
+      },
+      "ref-font-line-height-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "2.5rem"
+      },
+      "ref-font-lineHeight-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "lineHeight"
+          ]
+        },
+        "$value": "2.5rem"
+      }
+    },
+    "spacing": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "space"
+        ]
+      },
+      "ref-relative-spacing-null": {
+        "$type": "space",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0px"
+      },
+      "ref-relative-spacing-01": {
+        "$type": "space",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.0625rem"
+      },
+      "ref-relative-spacing-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.125rem"
+      },
+      "ref-relative-spacing-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.25rem"
+      },
+      "ref-relative-spacing-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.5rem"
+      },
+      "ref-relative-spacing-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.625rem"
+      },
+      "ref-relative-spacing-06": {
+        "$type": "dimension",
+        "$value": "0.75rem"
+      },
+      "ref-relative-spacing-07": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "0.875rem"
+      },
+      "ref-relative-spacing-08": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "1rem"
+      },
+      "ref-relative-spacing-09": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "1.25rem"
+      },
+      "ref-relative-spacing-10": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "1.5rem"
+      },
+      "ref-relative-spacing-11": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "2rem"
+      },
+      "ref-relative-spacing-12": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "2.5rem"
+      },
+      "ref-relative-spacing-13": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "3rem"
+      },
+      "ref-relative-spacing-14": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "3.5rem"
+      },
+      "ref-relative-spacing-15": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "4rem"
+      },
+      "ref-relative-spacing-16": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "5rem"
+      },
+      "ref-relative-spacing-17": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "7.5rem"
+      },
+      "ref-relative-spacing-18": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "space"
+          ]
+        },
+        "$value": "10rem"
+      },
+      "ref-fixed-spacing-null": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "ref-fixed-spacing-01": {
+        "$type": "dimension",
+        "$value": "1px"
+      },
+      "ref-fixed-spacing-02": {
+        "$type": "dimension",
+        "$value": "2px"
+      },
+      "ref-fixed-spacing-03": {
+        "$type": "dimension",
+        "$value": "3px"
+      },
+      "ref-fixed-spacing-04": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "ref-fixed-spacing-05": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "ref-fixed-spacing-06": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "ref-fixed-spacing-07": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "ref-fixed-spacing-08": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "ref-fixed-spacing-09": {
+        "$type": "dimension",
+        "$value": "32px"
+      }
+    },
+    "sizing": {
+      "$type": "dimension",
+      "$extensions": {
+        "com.interplayapp.usedFor": [
+          "borderRadius",
+          "borderWidth",
+          "fontSize",
+          "letterSpacing",
+          "lineHeight",
+          "size",
+          "space"
+        ]
+      },
+      "ref-relative-sizing-01": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.0625rem"
+      },
+      "ref-relative-sizing-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.125rem"
+      },
+      "ref-relative-sizing-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.25rem"
+      },
+      "ref-relative-sizing-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.5rem"
+      },
+      "ref-relative-sizing-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.625rem"
+      },
+      "ref-relative-sizing-06": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.75rem"
+      },
+      "ref-relative-sizing-07": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "0.875rem"
+      },
+      "ref-relative-sizing-08": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "1rem"
+      },
+      "ref-relative-sizing-09": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "1.25rem"
+      },
+      "ref-relative-sizing-10": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "1.5rem"
+      },
+      "ref-relative-sizing-11": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "2rem"
+      },
+      "ref-relative-sizing-12": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "2.5rem"
+      },
+      "ref-relative-sizing-13": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "3rem"
+      },
+      "ref-relative-sizing-14": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "3.5rem"
+      },
+      "ref-relative-sizing-15": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "4rem"
+      },
+      "ref-relative-sizing-16": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "5rem"
+      },
+      "ref-relative-sizing-17": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "7.5rem"
+      },
+      "ref-relative-sizing-18": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius",
+            "fontSize",
+            "letterSpacing",
+            "lineHeight",
+            "size"
+          ]
+        },
+        "$value": "10rem"
+      },
+      "ref-fixed-sizing-01": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "1px"
+      },
+      "ref-fixed-sizing-02": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "2px"
+      },
+      "ref-fixed-sizing-03": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "3px"
+      },
+      "ref-fixed-sizing-04": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "4px"
+      },
+      "ref-fixed-sizing-05": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "8px"
+      },
+      "ref-fixed-sizing-06": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "12px"
+      },
+      "ref-fixed-sizing-07": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "16px"
+      },
+      "ref-fixed-sizing-08": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "24px"
+      },
+      "ref-fixed-sizing-09": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderWidth"
+          ]
+        },
+        "$value": "32px"
+      }
+    },
+    "radius": {
+      "ref-radius-full": {
+        "$type": "dimension",
+        "$extensions": {
+          "com.interplayapp.usedFor": [
+            "borderRadius"
+          ]
+        },
+        "$value": "1000px"
+      }
+    },
+    "elevation": {
+      "$type": "shadow",
+      "ref-elevation-01": {
+        "$value": [
+          {
+            "blur": "16px",
+            "color": "{theme-reference.color.shadow.ref-color-shadow}",
+            "spread": "0px",
+            "x": "0px",
+            "y": "8px"
+          },
+          {
+            "blur": "2px",
+            "color": "{theme-reference.color.shadow.ref-color-shadow}",
+            "spread": "0px",
+            "x": "0px",
+            "y": "2px"
+          }
+        ]
+      }
+    },
+    "motion": {
+      "$type": "string",
+      "transition": {
+        "sys-transition-color-slow": {
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-04}"
+        },
+        "sys-transition-color-medium": {
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-color-fast": {
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-rotate-slow": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-rotate-medium": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-rotate-fast": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-01}"
+        },
+        "sys-transition-fade-in-slow": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-04}"
+        },
+        "sys-transition-fade-in-medium": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-fade-in-fast": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-01} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-scale-slow": {
+          "$description": "",
+          "$type": "string",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-04}"
+        },
+        "sys-transition-scale-medium": {
+          "$description": "",
+          "$type": "string",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-scale-fast": {
+          "$description": "",
+          "$type": "string",
+          "$value": "{non-themable.motion.ease.ref-ease-03} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-expand-slow": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-04}"
+        },
+        "sys-transition-expand-medium": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-expand-fast": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-ripple-slow": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-ripple-medium": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-ripple-fast": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-01}"
+        },
+        "sys-transition-stretch-slow": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-03}"
+        },
+        "sys-transition-stretch-medium": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-02} {non-themable.motion.duration.ref-duration-02}"
+        },
+        "sys-transition-stretch-fast": {
+          "$description": "",
+          "$value": "{non-themable.motion.ease.ref-ease-03} {non-themable.motion.duration.ref-duration-01}"
+        }
+      },
+      "ease": {
+        "$type": "cubicBezier",
+        "ref-ease-01": {
+          "$description": "Linear bezier for continuous speed",
+          "$type": "cubicBezier",
+          "$value": "0,0,1,1"
+        },
+        "ref-ease-02": {
+          "$description": "Ease in-out for default motion patterns",
+          "$type": "cubicBezier",
+          "$value": "0.50, 0, 0.20, 1"
+        },
+        "ref-ease-03": {
+          "$description": "Ease-out bounce for some stretched motion",
+          "$type": "cubicBezier",
+          "$value": "0.175, 0.885, 0.32, 1.275"
+        }
+      },
+      "duration": {
+        "$type": "duration",
+        "ref-duration-01": {
+          "$value": "150ms"
+        },
+        "ref-duration-02": {
+          "$value": "300ms"
+        },
+        "ref-duration-03": {
+          "$value": "500ms"
+        },
+        "ref-duration-04": {
+          "$value": "700ms"
+        }
+      }
+    },
+    "border-style": {
+      "ref-border-style-01": {
+        "$type": "string",
+        "$value": "solid"
+      },
+      "ref-border-style-02": {
+        "$type": "string",
+        "$value": "dashed"
+      },
+      "ref-border-style-03": {
+        "$type": "string",
+        "$value": "dotted"
+      }
+    }
+  }
+}
