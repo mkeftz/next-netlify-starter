@@ -457,7 +457,7 @@
               "backgroundColor"
             ]
           },
-          "$value": "#0f0d0d99"
+          "$value": "#00000099"
         },
         "sys-color-background-controls-off": {
           "$description": "Toggle;  Slider;  Radio button; Checkbox; Tabs Indicator",
@@ -1775,7 +1775,7 @@
             "backgroundColor"
           ]
         },
-        "$value": "463c3cff"
+        "$value": "333333ff"
       },
       "comp-border-snackbar": {
         "$type": "border",
@@ -1904,7 +1904,7 @@
       },
       "ref-color-black": {
         "$description": "Black color, not themable",
-        "$value": "#0f0d0d"
+        "$value": "#000000"
       },
       "ref-color-white": {
         "$description": "White color, not themable",
