@@ -1,0 +1,58 @@
+{
+  "theme-reference": {
+    "color": {
+      "$type": "color",
+      "brand": {
+        "ref-color-brand-01": {
+          "$description": "The primary brand color, used on graphics, illustration and decoration",
+          "$type": "color",
+          "$value": "#0070F2"
+        }
+      },
+      "primary": {
+        "$type": "color",
+        "ref-color-primary-01": {
+          "$description": "The primary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#0070F2"
+        },
+        "ref-color-primary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-primary-01",
+          "$type": "color",
+          "$value": "#0064D9"
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "ref-color-secondary-01": {
+          "$description": "The secondary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#D3DDE6"
+        },
+        "ref-color-secondary-02": {
+          "$description": "The color applied against the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#0070F2"
+        },
+        "ref-color-secondary-03": {
+          "$description": "A lighter/darker variant of the  $ref-color-secondary-01",
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "ref-color-tertiary-01": {
+          "$description": "The tertiary action color that characterizes the theming against $ref-color-fill-01 and  $ref-color-fill-02",
+          "$type": "color",
+          "$value": "#0070F2"
+        },
+        "ref-color-tertiary-02": {
+          "$description": "A lighter/darker variant of the  $ref-color-teriary-01",
+          "$type": "color",
+          "$value": "#0064D9"
+        }
+      }
+    }
+  }
+}
